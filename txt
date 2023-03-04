@@ -1,0 +1,30 @@
+<h1><img class="logo" src="WhatsApp Image 2023-02-22 at 23.13.11.jpeg" alt="its Sidharth"> Sidharth site</h1>
+.logo{
+    display: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    width: 85px;
+    margin: 5px;
+    padding: 5px;
+} 
+header {
+    background-color:grey;
+    color: #fff;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}A5F1E9
+#ECF9FF
+opacity: 0.8;
+h1 {
+    font-size: 32px;
+    background-color: grey;
+}
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}

@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    /* background-image: linear-gradient(to right top ,wheat,cyan); */
+}
+/* the body setting is here */
+
+body {
+    font-family: Arial, sans-serif; 
+    font-size: 16px;
+    line-height: 1.5;
+    background-color:#ECF9FF;
+    background-image: linear-gradient(to right , wheat, #ECF9FF);
+    
+}
+/* the nav bar, name , image ,overall setting, HEADER section is here */
+#dev{
+    height: 87vh;
+    width: auto;
+    background-image: url(photo-1531297484001-80022131f5a1\ \(1\).avif);
+    background-image: url(photo-1488190211105-8b0e65b80b4e.avif);
+    opacity: 0.8;  
+    background-position: center;
+    background-attachment: fixed;
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    position: static;
+    margin-left: 1070px;
+    margin-top: 0px;
+    padding: 2px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    margin-right: 30px;
+   text-decoration: none;
+}
+nav ul li a:hover{
+    color: wheat;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+nav ul li{
+    color: white;
+    list-style: none;
+}
+nav ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.name{
+    color: whitesmoke;
+    margin-left: 560px;
+    margin-top: -500px;
+    position: relative;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.name:hover{
+        color: rgba(255, 0, 0, 0.697);
+        text-decoration: none;
+        transition: color 1.2s;
+     
+}
+
+.javac{
+    border-radius: 5cm;
+    size: 5px;
+    width: 130px;
+    height: 130px;
+    position: relative;
+    margin-top: 60px;
+    padding: 0%;
+    left: 660px; 
+   
+  
+}
+.pythonc{
+    border-radius: 5cm;
+    size: 5px;
+    width: 130px;
+    height: 130px;
+    position: relative;
+    left: 660px;  
+   
+}
+.cppc{
+    border-radius: 5cm;
+    margin-top: -40px;
+    size: 5px;
+    width: 130px;
+    height: 130px;
+    position: relative;
+    top: 140px;
+   left: 1000px;
+   opacity: 1;
+}
+.javasc{
+    border-radius: 5cm;
+    size: 5px;
+    width: 130px;
+    height: 130px;
+    position: relative; 
+    top: 140px;
+    left: 1000px;
+   
+}
+.nodec{
+    border-radius: 5cm;
+    size: 5px;
+    width: 130px;
+    height: 130px;
+    position: relative; 
+    top: 140px;
+    left: 1000px;
+    
+}
+
+
+/* here the MAIN body setting is here */
+
+main {
+    /* max-width: 1000px; */
+    margin: 0px;
+    padding: 0px;
+}
+section{
+    width: 100%;
+    flex-direction: column;
+    height: 75vh;
+}
+
+
+.sid{
+    border-radius: 50cm;
+    margin-top: 330px;
+    margin-left: 450px;
+    position: relative;
+    width: 230px;
+    height: 240px;
+    border: inset;
+    padding: 2px;
+    color: #ccc;
+    box-shadow: 5px 10px white;
+    background-image: linear-gradient(to right top ,wheat,lightyellow);
+}
+
+
+#about{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* margin: 100px;
+    margin-top: 50px;
+    padding: 100px; */
+    height: 75vh;
+    overflow-wrap: break-word;
+    width: 100%;
+    background-image: linear-gradient(to right ,wheat,lightyellow);
+   
+}
+
+/* section:nth-child(2n+1){
+   background-color: #ECF9FF;
+}
+section:nth-child(2n){
+    max-width: -1000%;
+    background-image: linear-gradient(to right top ,wheat,cyan);
+
+} */
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+li {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+.cli{
+    background-color: darkgrey;
+    border-radius:25% ;
+    color: white;
+    margin: 10px;
+    margin-top: 30px;
+    padding: 5px 10px;
+}
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
